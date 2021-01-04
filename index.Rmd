@@ -3,6 +3,7 @@ title: "Reproducible Pitch Presentation"
 output: 
   ioslides_presentation: 
     keep_md: yes
+runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
