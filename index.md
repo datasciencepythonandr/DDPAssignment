@@ -9,7 +9,19 @@ output:
 
 
 ## Use of Application
-- To demonstrates how a distribution of randomly generated numbers approximate normal distribution when number of observations gets large
+* To demonstrates how a distribution of randomly generated numbers approximate normal distribution when number of observations gets large
+* Slider is used in place of input as per below code
+
+```r
+input = 50
+dist <- rnorm(input)
+        hist(dist)
+```
+
+<img src="index_files/figure-html/unnamed-chunk-1-1.png" style="display: block; margin: auto;" />
+
+```
+
 
 ## User Interface
 

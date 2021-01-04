@@ -11,7 +11,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 ## Use of Application
-- To demonstrates how a distribution of randomly generated numbers approximate normal distribution when number of observations gets large
+* To demonstrates how a distribution of randomly generated numbers approximate normal distribution when number of observations gets large
+* Slider is used in place of input as per below code
+```{r , echo= TRUE, fig.height = 3, fig.width = 3, fig.align = "center"}
+input = 50
+dist <- rnorm(input)
+        hist(dist)
+
+```
+
+```
+
 
 ## User Interface
 
