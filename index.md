@@ -3,6 +3,7 @@ title: "Reproducible Pitch Presentation"
 output: 
   ioslides_presentation: 
     keep_md: yes
+date: '5-Jan-2021'
 ---
 
 
@@ -25,15 +26,15 @@ dist <- rnorm(input)
 
 ## User Interface
 
-![alt text here](./1.png)
+![User Interface](./1.png)
 
 
 
 ## Small Observations
 
-![alt text here](./2.png)
+![Small Observations](./2.png)
 
 
 ## Large Observations (Normal Distribution Approximation)
 
-![alt text here](./3.png)
+![Large Observations](./3.png)
